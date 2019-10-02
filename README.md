@@ -7,7 +7,7 @@ Build the dockerdb: $ docker build -t dockerdb .
 
 Start the dockerdb: $ docker run -p 80:5000 dockerdb
 
-Start the dockerdb on the background: $ docker run -d -p 80:5000 dockerdb
+Start the dockerdb in the background: $ docker run -d -p 80:5000 dockerdb
 
 ## Stop
 To stop the dockerdb: docker stop "CONTAINER ID"
