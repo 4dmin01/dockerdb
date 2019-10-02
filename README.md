@@ -1,7 +1,9 @@
 # A simple docker database made with python flask
 
 ## Setup
-Build the dockerdb, to build the dockerdb make sure you are in the right directory by default "dockerdb" then run: $ docker build -t dockerdb .
+Build the dockerdb, to build the dockerdb make sure you are in the right directory by default "dockerdb"
+
+Build the dockerdb: $ docker build -t dockerdb .
 
 Start the dockerdb: $ docker run -p 80:5000 dockerdb
 
