@@ -4,7 +4,7 @@ from flask import request
 app = FlaskAPI(__name__)
 
 @app.route('/', methods=['GET', 'PUT'])
-def example():
+def dockerdb():
     if request.method == 'PUT':
         note = str(request.data.get('DATA', ''))
         if note == '':
