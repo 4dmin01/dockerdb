@@ -10,7 +10,7 @@ Start the dockerdb: $ docker run -p 80:5000 dockerdb
 Start the dockerdb in the background: $ docker run -d -p 80:5000 dockerdb
 
 ## Stop
-To stop the dockerdb: docker stop "CONTAINER ID"
+    To stop the dockerdb: $ docker stop "CONTAINER ID"
 
 ## Send data
 To send data in the dockerdb you can do it by either using the gui in the webbrowser or by using the commandline
