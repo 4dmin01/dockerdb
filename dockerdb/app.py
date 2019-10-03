@@ -21,8 +21,7 @@ def example():
     elif request.method == 'GET':
         with open('db.txt') as f:
             db = f.read()
-        db = str(db.split('\n'))
-        return db+'\n'
+        return db.split('\n')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
