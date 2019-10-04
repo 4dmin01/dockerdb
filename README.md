@@ -1,13 +1,13 @@
 # A simple docker database made with python flask
 
 ## Setup
-Build the dockerdb, to build the dockerdb make sure you are in the right directory by default "dockerdb"
+Build the dockerdb, to build the dockerdb make sure you are in the right directory by default "dockerdb" keep in mind that on mac you do not have to type sudo by default.
 
-    Build the dockerdb: $ docker build -t dockerdb .
+    Build the dockerdb: $ sudo docker build -t dockerdb .
 
-    Start the dockerdb: $ docker run -p 80:5000 dockerdb
+    Start the dockerdb: $ sudo docker run -p 80:5000 dockerdb
 
-    Start the dockerdb in the background: $ docker run -d -p 80:5000 dockerdb
+    Start the dockerdb in the background: $ sudo docker run -d -p 80:5000 dockerdb
 
 ## Stop
     To stop the dockerdb: $ docker stop "CONTAINER ID"
