@@ -15,7 +15,7 @@ Build the dockerdb, to build the dockerdb make sure you are in the right directo
 ## Send data
 To send data in the dockerdb can be done by either using the gui in the webbrowser or by using the commandline
 
-    Send data by using the commandline: $ curl -X PUT http://127.0.0.1:80/ -d DATA="DATA GOES HERE"
+    Send data by using the commandline: $ curl -X POST http://127.0.0.1:80/ -d DATA="DATA GOES HERE"
 
 Send data by using browser: navigate to http://127.0.0.1:80/ type your data and click on submit.
 
