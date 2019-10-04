@@ -17,7 +17,9 @@ To send data in the dockerdb can be done by either using the gui in the webbrows
 
     Send data by using the commandline: $ curl -X PUT http://127.0.0.1:80/ -d DATA="DATA GOES HERE"
 
-Send data by using browser: navigate to http://127.0.0.1:80/ then make sure "Media type" is on "application/x-www-form-urlencoded" then type "DATA=DATA GOES HERE"
+Send data by using browser: navigate to http://127.0.0.1:80/ type your data and click on submit.
 
 ## Get data
-    To get data from dockerdb: $ curl -X GET http://127.0.0.1:80/
+    To get data from dockerdb using the command line: $ curl -X GET http://127.0.0.1:80/db/
+
+To getdata from dockerdb using the browser navigate to http://127.0.0.1:80/db/
